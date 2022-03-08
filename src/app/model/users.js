@@ -1,6 +1,13 @@
+'use strict'
+
+import userRepository from '../repository/user.repository';
+import bcrypt from 'bcrypt'
+import {
+  uuid
+} from '../util/uuid'
 const Sequelize = require('sequelize');
 module.exports = function(sequelize, DataTypes) {
-  return sequelize.define('users', {
+  const users = sequelize.define('users', {
     uuid: {
       allowNull: true,
       unique: true,
@@ -52,7 +59,7 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING(10),
       allowNull: true
     },
-    BIRTHDAY: {
+    birthday: {
       type: DataTypes.STRING(4),
       allowNull: true
     },
@@ -72,7 +79,7 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.INTEGER,
       allowNull: true
     },
-    profile_image: {
+    profile_img: {
       type: DataTypes.STRING(300),
       allowNull: true
     }
@@ -80,6 +87,7 @@ module.exports = function(sequelize, DataTypes) {
     sequelize,
     tableName: 'users',
     timestamps: true,
+    underscored: true, // snake case 명명규칙을 따름
     indexes: [
       {
         name: "PRIMARY",
@@ -112,4 +120,30 @@ module.exports = function(sequelize, DataTypes) {
       },
     ]
   });
+
+  //association 추가..하고 index에서는 없애고 테스트
+
+  // hooks
+  users.beforeSave(async (user, options) => {
+    if (user.changed('password')) {
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(user.password, salt);
+    }
+  });
+
+  //print
+  users.prototype.toWeb = function () {
+    // findAll 을 하면 여러 컬럼이 따라옴 (uniqno, _previousValues 등..)
+    // 이런 쓸데없는 컬럼들을 제외하고 핵심 값인 dataValues만 가져온 뒤 할당 하는 것
+    const values = Object.assign({}, this.dataValues)
+
+    // 그 중에서도 주요 정보인 id와 password는 삭제해준다.
+    delete values.id
+    delete values.password
+
+
+    return values
+  }
+
+  return users
 };

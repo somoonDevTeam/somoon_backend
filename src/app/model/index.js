@@ -35,17 +35,11 @@ fs
     const model = require(path.join(__dirname, file))(sequelize, Sequelize.DataTypes);
     db[model.name] = models[model.name];
   });
-  
-/*
-Object.keys(db).forEach(modelName => {
-  if (db[modelName].associate) {
-    db[modelName].associate(db);
-  }
-});
-*/
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 module.exports = db;
 module.exports.defalut = db;
+
+export default models

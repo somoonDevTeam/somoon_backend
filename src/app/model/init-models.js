@@ -77,6 +77,7 @@ function initModels(sequelize) {
   var users = _users(sequelize, DataTypes);
 
   
+  // associations
   review.belongsTo(remodeling_apply, { foreignKey: "remodeling_apply_id"});
   remodeling_apply.hasMany(review, { foreignKey: "remodeling_apply_id"});
 
@@ -94,22 +95,8 @@ function initModels(sequelize) {
 
   USER_HASH.belongsTo(users, { as: "ID_user", foreignKey: "ID"});
   users.hasOne(USER_HASH, { as: "USER_HASH", foreignKey: "ID"});
-/*
-review.belongsTo(remodeling_apply, {foreignKey: 'remodeling_apply_id', target: 'remodeling_apply_id'})
-remodeling_apply.hasOne(review, {foreignKey: 'id', target: 'remodeling_apply_id'})
 
-remodeling_apply.belongsToMany(company, {through: assign})
-company.belongsToMany(remodeling_apply, {through: assign})
-
-company.hasMany(assign, {foreignKey: 'company_id', source: 'id'})
-assign.belongsTo(company, {foreignKey: 'company_id', target: 'id'})
-
-company.hasMany(remodeling, {foreignKey: 'company_id', source: 'id'})
-remodeling.belongsTo(company, {foreignKey: 'company_id', target: 'id'})
-
-remodeling.hasMany(remodeling_img, {foreignKey: 'remodeling_id', source: 'id'})
-remodeling_img.belongsTo(remodeling, {foreignKey: 'remodeling_id', target: 'id'})
-*/
+  //
   return {
     ACCESS,
     ALERT,

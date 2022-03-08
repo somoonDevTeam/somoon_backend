@@ -17,8 +17,8 @@ afterAll(() => model.sequelize.close())
   })
 
   test('사용자를 생성하면 uuid가 정상 생성 되어야 합니다.', async () => {
-    const user = await model[user].create({
-      email: `${randomString()}@test.com`,
+    const user = await model.users.create({
+      name: `${randomString()}@test.com`,
       password: randomString()
     })
 

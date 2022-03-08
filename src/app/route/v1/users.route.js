@@ -8,4 +8,9 @@ router.route('/')
     get
   )
 
+router.route('/:uuid?')
+  .get(
+    get
+  )
+
 export default router

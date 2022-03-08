@@ -1,11 +1,16 @@
 require('dotenv').config();
 
-const express = require('express');
-const cors = require('cors');
-const routers = require('./app/route/index');
-const createError = require('http-errors');
-//import { request } from 'express';
-//import v1Route from './app/route/v1/index'
+// const cors = require('cors');
+// const createError = require('http-errors');
+// const express = require('express');
+// const routers = require('./app/route/v1/index');
+// import { request } from 'express';
+import cors from 'cors'
+import createError from 'http-errors'
+import express from 'express'
+import routers from './app/route';
+import cookieParser from 'cookie-parser'
+import logger from 'morgan'
 
 const app = express();
 
@@ -61,3 +66,5 @@ app.use((err, req, res, next) => {
     return res.status(apiError.status)
         .json({message: apiError.message})
 })
+
+export default app

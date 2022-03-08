@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const company = require('../../controller/company.controller.js');
+const company = require('../../controller/v1/company.controller.js');
 
 /*
 //Create tutorial

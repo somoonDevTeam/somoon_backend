@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const remodeling = require('../../controller/remodeling.controller.js');
+const remodeling = require('../../../controller/remodeling.controller.js');
 
 //Create tutorial
 //router.post('/', remodeling.create);

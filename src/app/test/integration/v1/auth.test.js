@@ -1,9 +1,9 @@
 const request = require('supertest')
 const randomString = require('random-string')
 const models = require('../../../model')
-const userRepo = require('../../../repositories/user.repository')
+const userRepo = require('../../../repository/user.repository')
 
-const app = require('../../../../../app')
+const app = require('../../../../app')
 
 afterAll(() => models.sequelize.close())
 
