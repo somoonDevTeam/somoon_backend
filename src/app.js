@@ -9,6 +9,7 @@ import cors from 'cors'
 import createError from 'http-errors'
 import express from 'express'
 import routers from './app/route';
+import jwtMiddleware from './app/middleware/jwt.middleware' // jwt 토큰 middleware
 import cookieParser from 'cookie-parser'
 import logger from 'morgan'
 
@@ -24,6 +25,9 @@ app.use(express.json());
 
 //Parse requests of content-type: application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
+
+// 컨트롤러를 타기 전에 jwt로부터 user를 조회
+app.use(jwtMiddleware)
 
 //RESTful API route for DB
 app.use("/", routers);
