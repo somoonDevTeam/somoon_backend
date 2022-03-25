@@ -1,16 +1,10 @@
 import express from 'express'
-import {get} from '../../controller/v1/user.controller'
+import {get, join} from '../../controller/v1/user.controller'
 
 const router = express.Router()
 
-router.route('/')
-  .get(
-    get
-  )
-
-router.route('/:uuid?')
-  .get(
-    get
-  )
+router.get('/', get)
+router.get('/:uuid?', get)
+router.post('/join', join)
 
 export default router

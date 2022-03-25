@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">76.92% </span>
+                <span class="strong">30.76% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>10/13</span>
+                <span class='fraction'>4/13</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">66.66% </span>
+                <span class="strong">16.66% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>4/6</span>
+                <span class='fraction'>1/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">76.92% </span>
+                <span class="strong">30.76% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>10/13</span>
+                <span class='fraction'>4/13</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -107,24 +107,24 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
@@ -139,26 +139,26 @@ export default async (req, res, next) =&gt; {
   try {
     req.user = null
 &nbsp;
-    if (req.headers.authorization) {
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (req.headers.authorization) {
       let uuid
-      jwt.verify(
+<span class="cstat-no" title="statement not covered" >      jwt.verify(</span>
         req.headers.authorization.split(' ')[1],
         process.env.JWT_SECRET,
-        (err, payload) =&gt; {
-          <span class="missing-if-branch" title="if path not taken" >I</span>if (err) {
+<span class="fstat-no" title="function not covered" >        (e</span>rr, payload) =&gt; {
+<span class="cstat-no" title="statement not covered" >          if (err) {</span>
 <span class="cstat-no" title="statement not covered" >            return next(createError(401, '토큰 정보가 유효하지 않습니다.'))</span>
           }
 &nbsp;
-          uuid = payload.uuid
+<span class="cstat-no" title="statement not covered" >          uuid = payload.uuid</span>
         })
 &nbsp;
-      const user = await userRepo.find(uuid)
+      const user = <span class="cstat-no" title="statement not covered" >await userRepo.find(uuid)</span>
 &nbsp;
-      <span class="missing-if-branch" title="if path not taken" >I</span>if (!user) {
+<span class="cstat-no" title="statement not covered" >      if (!user) {</span>
 <span class="cstat-no" title="statement not covered" >        return next(createError(404, '사용자를 찾을 수 없습니다.'))</span>
       }
 &nbsp;
-      req.user = user
+<span class="cstat-no" title="statement not covered" >      req.user = user</span>
     }
 &nbsp;
     next()
@@ -172,7 +172,7 @@ export default async (req, res, next) =&gt; {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener">istanbul</a>
-                at Wed Mar 16 2022 14:18:55 GMT+0900 (Korean Standard Time)
+                at Thu Mar 24 2022 16:00:47 GMT+0900 (Korean Standard Time)
             </div>
         <script src="../../../prettify.js"></script>
         <script>

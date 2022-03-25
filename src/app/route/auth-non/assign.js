@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const assign = require('../../../controller/assign.controller.js');
+const assign = require('../../controller/assign.controller.js');
 
 /*
 //Create tutorial

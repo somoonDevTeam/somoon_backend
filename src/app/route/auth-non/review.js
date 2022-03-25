@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const review = require('../../../controller/review.controller.js');
+const review = require('../../controller/review.controller.js');
 
 //Create tutorial
 //router.post('/', review.create);

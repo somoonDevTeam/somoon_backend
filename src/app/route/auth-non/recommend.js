@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const recommend = require('../../../controller/recommend.controller.js');
+const recommend = require('../../controller/recommend.controller.js');
 
 //Create tutorial
 router.post('/', recommend.create);

@@ -1,5 +1,5 @@
 import Router from 'express'
-//import authNonRouter from './auth-non'
+import authNonRouter from './auth-non'
 import v1Router from './v1'
 
 //const Router = require('express').Router;
@@ -8,6 +8,7 @@ import v1Router from './v1'
 const router = Router();
 //router.use('/auth-non', authNonRouter);
 router.use('/v1', v1Router);
+router.use('/auth-non', authNonRouter);
 
 module.exports = router;
 export default router;
