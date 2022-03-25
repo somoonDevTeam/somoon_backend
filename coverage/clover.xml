@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1648105247740" clover="3.2.0">
+  <project timestamp="1648105247740" name="All files">
+    <metrics statements="516" coveredstatements="390" conditionals="96" coveredconditionals="18" methods="112" coveredmethods="56" elements="724" coveredelements="464" complexity="0" loc="516" ncloc="516" packages="11" files="64" classes="64"/>
+    <package name="src">
+      <metrics statements="23" coveredstatements="21" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="3"/>
+      <file name="app.js" path="/Users/yejinlee/Project/mysql-server/src/app.js">
+        <metrics statements="23" coveredstatements="21" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="61" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="67" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="70" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.config">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <file name="config.js" path="/Users/yejinlee/Project/mysql-server/src/app/config/config.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.controller">
+      <metrics statements="119" coveredstatements="35" conditionals="56" coveredconditionals="0" methods="45" coveredmethods="0"/>
+      <file name="assign.controller.js" path="/Users/yejinlee/Project/mysql-server/src/app/controller/assign.controller.js">
+        <metrics statements="22" coveredstatements="6" conditionals="10" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="recommend.controller.js" path="/Users/yejinlee/Project/mysql-server/src/app/controller/recommend.controller.js">
+        <metrics statements="27" coveredstatements="6" conditionals="14" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+      </file>
+      <file name="remodeling.controller.js" path="/Users/yejinlee/Project/mysql-server/src/app/controller/remodeling.controller.js">
+        <metrics statements="16" coveredstatements="6" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+      <file name="review.controller.js" path="/Users/yejinlee/Project/mysql-server/src/app/controller/review.controller.js">
+        <metrics statements="13" coveredstatements="8" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+      </file>
+      <file name="tutorial.controller.js" path="/Users/yejinlee/Project/mysql-server/src/app/controller/tutorial.controller.js">
+        <metrics statements="41" coveredstatements="9" conditionals="20" coveredconditionals="0" methods="18" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="102" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="121" count="1" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.controller.v1">
+      <metrics statements="45" coveredstatements="18" conditionals="12" coveredconditionals="4" methods="8" coveredmethods="2"/>
+      <file name="auth.controller.js" path="/Users/yejinlee/Project/mysql-server/src/app/controller/v1/auth.controller.js">
+        <metrics statements="18" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+      </file>
+      <file name="company.controller.js" path="/Users/yejinlee/Project/mysql-server/src/app/controller/v1/company.controller.js">
+        <metrics statements="10" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="user.controller.js" path="/Users/yejinlee/Project/mysql-server/src/app/controller/v1/user.controller.js">
+        <metrics statements="17" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="159" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.middleware">
+      <metrics statements="13" coveredstatements="4" conditionals="6" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="jwt.middleware.js" path="/Users/yejinlee/Project/mysql-server/src/app/middleware/jwt.middleware.js">
+        <metrics statements="13" coveredstatements="4" conditionals="6" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.model">
+      <metrics statements="234" coveredstatements="233" conditionals="9" coveredconditionals="6" methods="44" coveredmethods="44"/>
+      <file name="ACCESS.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/ACCESS.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="ALERT.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/ALERT.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="BANNER.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/BANNER.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="BANNER_IMG.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/BANNER_IMG.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="BUILDING.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/BUILDING.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="BUSINESS_LICENSE.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/BUSINESS_LICENSE.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="CERTIFICATE.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/CERTIFICATE.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="COMPANY_ABILITIES.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/COMPANY_ABILITIES.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="COMPANY_CERTIFICATE.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/COMPANY_CERTIFICATE.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="COUPON.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/COUPON.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="ISSUED_COUPON.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/ISSUED_COUPON.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="KEYWORD.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/KEYWORD.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="KEYWORD_ASSIGNED.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/KEYWORD_ASSIGNED.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="POPULAR_AREA.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/POPULAR_AREA.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="REMODELING_APPLY_DIV2.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/REMODELING_APPLY_DIV2.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="REMODELINGs.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/REMODELINGs.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="RESIDENT.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/RESIDENT.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="RMDL_DIV1.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/RMDL_DIV1.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="RMDL_DIV2.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/RMDL_DIV2.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="ROOT_AREA.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/ROOT_AREA.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="SECOND_AREA.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/SECOND_AREA.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="SPECIALIZED.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/SPECIALIZED.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="SequelizeMeta.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/SequelizeMeta.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="THEME.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/THEME.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="THEME_ASSIGNED.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/THEME_ASSIGNED.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="USER_HASH.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/USER_HASH.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="VALID_BUSINESS_LICENSE.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/VALID_BUSINESS_LICENSE.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="admin.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/admin.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="assign.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/assign.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="company.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/company.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/index.js">
+        <metrics statements="20" coveredstatements="19" conditionals="7" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="39" type="cond" truecount="3" falsecount="0"/>
+        <line num="35" count="38" type="stmt"/>
+        <line num="36" count="38" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+      <file name="init-models.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/init-models.js">
+        <metrics statements="91" coveredstatements="91" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="91" count="2" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="97" count="2" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="141" count="1" type="stmt"/>
+        <line num="142" count="1" type="stmt"/>
+      </file>
+      <file name="recommend.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/recommend.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="remodeling.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/remodeling.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="remodeling_apply.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/remodeling_apply.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="remodeling_img.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/remodeling_img.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="review.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/review.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="tutorials.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/tutorials.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="users.js" path="/Users/yejinlee/Project/mysql-server/src/app/model/users.js">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="128" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="129" count="2" type="stmt"/>
+        <line num="130" count="2" type="stmt"/>
+        <line num="135" count="3" type="stmt"/>
+        <line num="138" count="160" type="stmt"/>
+        <line num="141" count="160" type="stmt"/>
+        <line num="142" count="160" type="stmt"/>
+        <line num="145" count="160" type="stmt"/>
+        <line num="148" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.repository">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <file name="user.repository.js" path="/Users/yejinlee/Project/mysql-server/src/app/repository/user.repository.js">
+        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.route">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/index.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.route.v1">
+      <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="auth.route.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/auth.route.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="users.route.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/users.route.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.route.v1.auth-non">
+      <metrics statements="51" coveredstatements="51" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="assign.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/auth-non/assign.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="company.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/auth-non/company.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/auth-non/index.js">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="recommend.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/auth-non/recommend.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="remodeling.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/auth-non/remodeling.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="review.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/auth-non/review.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+      <file name="tutorial.js" path="/Users/yejinlee/Project/mysql-server/src/app/route/v1/auth-non/tutorial.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.util">
+      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="response.js" path="/Users/yejinlee/Project/mysql-server/src/app/util/response.js">
+        <metrics statements="2" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="uuid.js" path="/Users/yejinlee/Project/mysql-server/src/app/util/uuid.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
