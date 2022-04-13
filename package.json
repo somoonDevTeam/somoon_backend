@@ -28,6 +28,7 @@
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
     "random-string": "^0.2.0",
+    "nodemon": "^2.0.15",
     "sequelize": "^6.12.4",
     "uuid4": "^2.0.2"
   },
@@ -39,7 +40,6 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^27.4.5",
     "jest": "^27.4.5",
-    "nodemon": "^2.0.15",
     "regenerator-runtime": "^0.13.9",
     "supertest": "^6.2.2"
   }
